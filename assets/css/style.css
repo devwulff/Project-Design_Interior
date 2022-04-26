@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 35px;
+}
+
+
+
+/* ############### RESOURCES ##################
+font-family: 'Lora', serif;
+font-family: 'Work Sans', sans-serif;
+
+Farbe: #2e2e2e / #fff / #000 / #1d2c2f 
+
+https://www.youtube.com/watch?v=GI71fXmRrLM
+*/
+
+/* ############### HEADER ################## */
+
+header {
+    display: flex;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+}
+
+header div h1 {
+    font-family: 'Lora', serif;
+    font-size: 10rem;
+    font-weight: 500;
+}
+
+header div p {
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    font-weight: 200;
+    padding: 5vh 0 0 0;
+}
+
+header img {
+    width: 60%;
+}
+
+/* ############### NAVIGATION ################## */
+
+main nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2e2e;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+main nav img {
+    padding: 10px 0 20px 10px;
+    width: 100px;
+}
+
+main nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0 80px 0 0;
+    gap: 210px;
+}
+
+main nav ul li a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ############### MAIN ################## */
+
+main section h2 {
+    font-family: 'Lora', serif;
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+main section p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.5;
+    word-spacing: 10px;
+}
+
+/* ############### CLASS OURSTORY ################## */
+
+.ourstory {
+    display: flex;
+    background-color: #2e2e2e;
+    padding: 10% 0 10% 0;
+    color: #fff;
+    justify-content: center;
+}
+
+.ourstory img {
+    width: 55%;
+}
+
+.ourstory div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+}
+
+.ourstory div h2 {
+    text-align: center;
+    padding: 10% 0 0 0;
+}
+
+.ourstory div p {
+    padding: 5% 7% 0 7%;
+}
+
+/* ############### CLASS FEATURED ################## */
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 0 0 0;
+}
+
+.featured h2 {
+    align-self: center;
+    padding: 0 0 3vh 0;
+}
+
+.featured p {
+    padding: 0 0 5% 0;
+    margin: 0 25% 0 30%;
+}
+
+.featured>div {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 0 5%;
+    gap: 30px;
+}
+
+.featured div div img {
+    width: 100%;
+}
+
+.featured div div figcaption {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    color: #818181;
+    text-align: center;
+}
+
+.featured div:nth-of-type(2) {
+    margin: 0 0 10% 0;
+}
+
+/* ############### CLASS GETINTOUCH ################## */
+
+.getintouch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2e2e2e;
+    padding: 0 0 15% 0;
+}
+
+.getintouch div {
+    flex-direction: column;
+    margin: 30vh 0 0 5%;
+    color: #fff;
+    flex-basis: 33%;
+}
+
+.getintouch p {
+    padding: 5% 0 0 0;
+}
+
+.getintouch form {
+    margin: 27vh 25% 0 0;
+}
+
+.getintouch form label,
+.getintouch form input {
+    display: block;
+}
+
+.getintouch form label {
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.getintouch form input {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    color: #818181;
+    padding: 5px 300px 5px 0;
+    margin: 5px 0 0 0;
+    margin-bottom: 8%;
+}
+
+.getintouch form button {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 8px;
+}
+
+/* ############### FOOTER ################## */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d2c2f;
+    color: #fff;
+    padding: 1% 3%;
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 5%;
+    margin: 0 3% 0 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ############### MOBILE STYLE maxWidth:600px ################## */
+
+@media only screen and (max-width: 600px) {
+    /* ############### HEADER ################## */
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header div h1 {
+        font-family: 'Lora', serif;
+        font-size: 7rem;
+        padding: 10vh 0 0 0;
+    }
+
+    header div p {
+        font-family: 'Lora', serif;
+        font-size: 2rem;
+        font-weight: 200;
+        padding: 5vh 0 10vh 0;
+    }
+
+    header img {
+        width: 100%;
+    }
+
+    /* ############### NAVIGATION ################## */
+
+    main nav img {
+        padding: 10px 0 20px 10px;
+        width: 100px;
+    }
+
+    main nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding: 0 30px 0 0;
+        gap: 30px;
+    }
+
+    main nav ul li a {
+        font-size: 2rem;
+    }
+
+    /* ############### MAIN ################## */
+
+    main section h2 {
+        font-family: 'Lora', serif;
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    main section p {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1.5;
+        word-spacing: 7px;
+    }
+
+    /* ############### CLASS OURSTORY ################## */
+
+    .ourstory {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2e2e2e;
+        padding: 10% 0 0 0;
+        color: #fff;
+        justify-content: center;
+    }
+
+    .ourstory img {
+        width: 100%;
+    }
+
+    .ourstory div h2 {
+        text-align: center;
+        padding: 0% 0 0 0;
+    }
+
+    .ourstory div p:nth-of-type(3) {
+        padding: 5% 7% 5% 7%;
+    }
+
+    /* ############### CLASS FEATURED ################## */
+
+    .featured p {
+        padding: 0 0 5% 0;
+        margin: 0 10% 0 10%;
+    }
+
+    .featured>div {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;
+    }
+
+    .featured div div img {
+        width: 100%;
+    }
+
+    .featured div:nth-of-type(2) {
+        margin: 5% 0 0 0;
+    }
+
+    .featured div:nth-of-type(2) iframe {
+        width: 100%;
+    }
+
+    /* ############### CLASS GETINTOUCH ################## */
+
+    .getintouch {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #2e2e2e;
+        padding: 0 0 5% 0;
+    }
+
+    .getintouch div {
+        margin: 10% 0 0 5%;
+    }
+
+    .getintouch form {
+        margin: 5% 0 0 5%;
+    }
+
+    .getintouch form label {
+        font-family: 'Lora', serif;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    .getintouch form input {
+        font-size: 1.5rem;
+        padding: 10px 350px 10px 0;
+    }
+
+    .getintouch form button {
+        font-size: 2rem;
+        padding: 10px 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        font-size: 2rem;
+        padding: 5% 3%;
+    }
+
+    footer p {
+        padding: 0 0 5% 0;
+    }
+
+    footer ul {
+        margin: 5% 0 0 0;
+        text-decoration: underline;
+    }
+}
