@@ -299,6 +299,8 @@ footer ul li a {
         font-size: 2rem;
     }
 
+
+
     /* ############### MAIN ################## */
 
     main section h2 {
@@ -390,7 +392,7 @@ footer ul li a {
 
     .getintouch form input {
         font-size: 1.5rem;
-        padding: 10px 350px 10px 0;
+        padding: 10px 250px 10px 0;
     }
 
     .getintouch form button {
